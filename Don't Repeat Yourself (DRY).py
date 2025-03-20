@@ -1,5 +1,7 @@
 #Don't Repeat Yourself (DRY) Prensibi:
-#Bu prensip, kodda tekrarların önlenmesi gerektiğini ifade eder. Aynı mantığı veya kodu birden fazla yerde tekrarlamak yerine, onu bir yerde tanımlayıp gerektiğindekullanmak daha iyi bir yazılım pratiğidir. Bu sayede kodun bakımı daha kolay olur, hataların önüne geçilir ve kod tekrar kullanımına olanak sağlanır.)
+#Bu prensip, kodda tekrarların önlenmesi gerektiğini ifade eder. Aynı mantığı veya kodu birden fazla
+yerde tekrarlamak yerine, onu bir yerde tanımlayıp gerektiğindekullanmak daha iyi bir yazılım pratiğidir.
+Bu sayede kodun bakımı daha kolay olur, hataların önüne geçilir ve kod tekrar kullanımına olanak sağlanır.)
 
 def calculate_area(shape, *dimensions):
     if shape == 'rectangle' and len(dimensions) == 2:
